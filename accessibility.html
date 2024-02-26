@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusiwealth</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <a class="navbar-brand" href="index.html"><img stylee="height:50px;"src="imgs/IWNav.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="accessibility.html">Community Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="toolsresources.html">Tools and Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="involved.html">Get Involved</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+    <!-- F STYLING BEGINS HERE -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #E3E1D8;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #F1EFE7;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      color: #555;
+      padding: 0 5px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 30%;
+      padding: 10px 2px;
+      background-color: #E3E1D8;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+      margin-top: -35px; /* Move the button up */
+      margin-right: 10px;
+    }
+
+
+    button:hover {
+      background-color: #CFCDC3;
+      box-shadow: 2px 2px 5px #0F4C5C;
+    }
+
+    h2 {
+      margin-top: 20px;
+      color: #333;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #777;
+    }
+  </style>
+  
+  <div class="container mt-4">
+    <h1 class="orange">Community Forum</h1>
+    <p style="text-align:center" class="blue"">Welcome to our Community Forum. This page is for the local community to upload and share financial tips!</p>
+  </div>
+  <div  style="background-color:#F1EFE7;" class='container mt-4' id="uploadedStatement">
+    <label for="statement">Enter your financial advice:</label>
+    <input type="text" id="statementInput">
+    <button onclick="uploadStatement()">Upload</button>
+    <p id="uploadedStatement"></p>
+
+    <script>
+        function uploadStatement() {
+            var statement = document.getElementById("statementInput").value;
+          var uploadedStatements = document.getElementById("uploadedStatement");
+          var newStatement = document.createElement('div');
+          newStatement.innerText = "You: " + statement;
+          uploadedStatements.appendChild(newStatement);
+        }
+    </script>
+  </div>
+  <!-- Bootstrap JS (jQuery dependency included) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    // Auto-collapse the navbar when a link is clicked
+    $('.navbar-nav>li>a').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+
+
+  <footer class="footer mt-auto py-3 text-white fixed-bottom navbar-custom">
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

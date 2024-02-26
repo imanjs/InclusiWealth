@@ -1,0 +1,214 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: League Spartan;
+}
+
+body {
+  background-color: #F1EFE7;
+  /* Light grey background color */
+}
+
+.navbar-custom {
+  background-color: #B6B096;
+  /* Transparent white background color */
+  backdrop-filter: blur(10px);
+  /* Apply a blur effect to the navbar */
+}
+
+.navbar-custom .navbar-brand {
+  color: #E36414;
+}
+
+.navbar-custom .nav-link {
+  color: #0F4C5C;
+  /* Blue text color */
+}
+
+.blue {
+  color: #0F4C5C;
+  /* Blue text color */
+}
+
+.orange {
+  color: #E36414;
+  /*Naruto Orange*/
+}
+
+.tan {
+  color: #B6B096;
+  /*Tan*/
+}
+
+/*h1{
+  padding: 10px 10px;
+}
+p{
+  padding: 0px 10px;
+}
+*/
+.calculator {
+  background-color: #FFFF;
+
+  /*White*/
+  h1 {
+    color: #E36414
+      /*Naruto Orange*/
+  }
+
+  h2 {
+    color: #E36414
+      /*Naruto Orange*/
+  }
+
+  label {
+    color: #0F4C5C;
+  }
+
+  p {
+    color: #0F4C5C;
+    /*Dark Blue*/
+  }
+
+  .jumbotron {
+    width: 10%;
+  }
+}
+#uploadedStatement{
+  font-weight: bold;
+  color: #0F4C5C; /* Dark Blue */
+  padding: 10px 0px;
+}
+/*.left{
+  align-items: left;
+  a:link, a:visited, a:active {
+    color:#0F4C5C;
+     text-decoration: none;
+   }
+  a:hover { 
+    text-shadow: 2px 2px 5px #0F4C5C;
+    box-shadow: 2px 2px 5px #0F4C5C;
+   }
+}
+
+.charities .right{
+  align-items: right;
+  text-align: right;
+  a:link, a:visited, a:active {
+    color:#0F4C5C;
+     text-decoration: none;
+   }
+  a:hover { 
+    text-shadow: 2px 2px 5px #0F4C5C;
+    box-shadow: 2px 2px 5px #0F4C5C;
+   }
+}
+*/
+.left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  a:link,
+  a:visited,
+  a:active {
+    color: #0F4C5C;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: 2px 2px 5px #0F4C5C;
+    box-shadow: 2px 2px 5px #0F4C5C;
+  }
+}
+
+.charity-item {
+  display: flex;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+}
+.charity-button{ /*why isnt this working??*/
+  display: block;
+  a:hover {
+    text-shadow: 2px 2px 5px #0F4C5C;
+    box-shadow: 2px 2px 5px #0F4C5C;
+  }
+  button:hover{
+    text-shadow: 2px 2px 5px #0F4C5C;/*why isnt this working??*/
+    box-shadow: 2px 2px 5px #0F4C5C; /*why isnt this working??*/
+  }
+}
+.right {
+  text-align: left;
+  align-content: right;
+
+  a:link,
+  a:visited,
+  a:active {
+    color: #0F4C5C;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: 2px 2px 5px #0F4C5C;
+    box-shadow: 2px 2px 5px #0F4C5C;
+  }
+
+  .23_271 {
+    overflow: hidden;
+  }
+
+  .e23_271 {
+    width: 1728px;
+    height: 500px;
+    position: absolute;
+  }
+
+  .e15_265 {
+    width: 1728px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("asset/13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .e23_270 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1728px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .e23_272 {
+    color: rgba(255, 255, 255, 1);
+    width: 779px;
+    height: 145px;
+    position: absolute;
+    left: 474px;
+    top: 153px;
+    font-family: League Spartan;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0;
+  }
+  #uploadedStatement{
+    background-color: #B6B096;
+    font-weight: bold;
+    color: #0F4C5C;
+  }
+  jumbotron {
+          background: url('/dam_2.jpg') no-repeat center center fixed;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 100%; 
+          font-weight: bold;
+          height: 100vh;
+  }
