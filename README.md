@@ -1,8 +1,8 @@
 # View The Web Design!
 [![Watch the video](https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f)](https://youtu.be/oKgVG4zzL8Y)
 # View The App Design!
-[![Watch the video]([https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f)](https://github.com/imanjs/InclusiWealth/assets/119751075/3a00b918-28e1-4556-8441-cf77f906944f)]([https://youtu.be/oKgVG4zzL8Y](https://youtube.com/shorts/M2a81A8HW7k))
-https://youtube.com/shorts/M2a81A8HW7k
+[![Watch the video](https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f)](https://github.com/imanjs/InclusiWealth/assets/119751075/3a00b918-28e1-4556-8441-cf77f906944f)
+
 # View The Actual Web Page!
 https://inclusiwealth.biz/index.html
 
