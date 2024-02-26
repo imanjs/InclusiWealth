@@ -1,5 +1,5 @@
-[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f))](https://youtu.be/oKgVG4zzL8Y)
-https://youtu.be/oKgVG4zzL8Y
+[![Watch the video](https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f)](https://youtu.be/oKgVG4zzL8Y)
+
 ## What it does 💡 
 <br>
 
