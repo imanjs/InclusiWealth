@@ -1,5 +1,8 @@
+[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/imanjs/InclusiWealth/assets/119751075/43256cf9-1f9f-451e-8b81-0dcd2db2e46f))](https://youtu.be/oKgVG4zzL8Y)
+https://youtu.be/oKgVG4zzL8Y
 ## What it does 💡 
 <br>
+
 Inclusiwealth is an educational web platform designed to empower users with a comprehensive suite of interactive tools and resources aimed at fostering financial literacy and inclusivity. At its core, Inclusiwealth offers a dynamic budget calculator, enabling users to efficiently track their income and expenses while receiving personalized suggestions on budget allocation. Additionally, our platform hosts a vibrant community forum where users can engage in meaningful discussions, seek advice, and share insights on various financial topics. Beyond these features, Inclusiwealth provides access to a wealth of educational materials, including curated lists of financial literacy books and courses, goal-setting worksheets, and finance trackers. Through its diverse array of offerings, Inclusiwealth equips users with the knowledge and tools they need to navigate their financial journey confidently and effectively, regardless of their background or level of expertise.
 
 ## Inspiration 🚀 
